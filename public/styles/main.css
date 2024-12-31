@@ -32,7 +32,7 @@ body {
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #000000;
   box-shadow: rgba(79, 184, 233, 0.1);
 }
@@ -101,7 +101,7 @@ ul {
 
 li {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000000;
 }
 
 li:last-child {
@@ -144,6 +144,6 @@ a.delete:hover {
   height: 300px;
   object-fit: cover;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   box-shadow: 0 8px 30px rgba(9, 119, 236, 0.5);
 }
