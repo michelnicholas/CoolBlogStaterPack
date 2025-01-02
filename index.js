@@ -30,6 +30,14 @@ let posts = [
     author: "Samuel Green",
     date: "2023-08-10T09:15:00Z",
   },
+  {
+    id: 4,
+    title: "Living My life like its golden",
+    content:
+      "Trying to be better than i was yesterday, Everyday is a new opportunity to be better",
+    author: "Michel Nicholas",
+    date: "2025-01-02T09:15:00Z",
+  },
 ];
 
 let lastId = 3;
