@@ -94,6 +94,12 @@ app.delete("/posts/:id",(req,res)=>{
   }
 })
 
+//Delete All 
+app.delete("/posts",(req,res)=>{
+  posts = []
+  res.sendStatus(200)
+})
+
 app.listen(port, () => {
   console.log(`API is running at http://localhost:${port}`);
 });
